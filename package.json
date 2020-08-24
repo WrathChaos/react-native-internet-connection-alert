@@ -1,8 +1,8 @@
 {
   "name": "react-native-internet-connection-alert",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Fully customizable internet connection connection with built-in alert for React Native",
-  "main": "./build/dist/index.js",
+  "main": "./build/dist/InternetConnectionAlert.js",
   "repository": "git@github.com:WrathChaos/react-native-internet-connection-alert.git",
   "author": "FreakyCoder <kurayogun@gmail.com>",
   "license": "MIT",
