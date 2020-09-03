@@ -1,4 +1,4 @@
-import React, { Component } from "react";
+import * as React from "react";
 import { Text, View } from "react-native";
 import NetInfo, { NetInfoState } from "@react-native-community/netinfo";
 import DropdownAlert from "react-native-dropdownalert";
@@ -20,7 +20,10 @@ interface IProps {
 
 interface IState {}
 
-export default class InternetConnectionAlert extends Component<IProps, IState> {
+export default class InternetConnectionAlert extends React.Component<
+  IProps,
+  IState
+> {
   dropDownAlertRef: any;
 
   componentDidMount() {
