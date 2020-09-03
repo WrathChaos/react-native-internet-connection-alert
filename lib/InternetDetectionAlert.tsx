@@ -5,7 +5,7 @@ import DropdownAlert from "react-native-dropdownalert";
 /**
  * ? Local Imports
  */
-import styles from "./InternetConnectionAlert.style";
+import styles from "./InternetDetectionAlert.style";
 
 type DropdownAlertType = "info" | "warn" | "error" | "custom" | "success";
 
