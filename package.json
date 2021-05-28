@@ -63,6 +63,8 @@
   },
   "dependencies": {
     "@react-native-community/netinfo": "^5.9.6",
-    "react-native-dropdownalert": "^4.3.0"
+    "react-native-apple-card-views": "^2.1.3",
+    "react-native-dropdownalert": "^4.3.0",
+    "react-native-gorgeous-header": "^0.1.0"
   }
 }
