@@ -23,7 +23,6 @@ const App = () => {
         setIsInternetAvailable(connectionState.isConnected);
       }}
     >
-    {/* {...} */}
       <>
         <StatusBar barStyle="dark-content" />
         <SafeAreaView>
