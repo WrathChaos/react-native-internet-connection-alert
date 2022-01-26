@@ -50,15 +50,19 @@ export default class InternetConnectionAlert extends React.Component<
         payload,
         interval,
       } = this.props;
-      this.dropDownAlertRef.alertWithType(
-        type,
-        title,
-        message,
-        payload,
-        interval,
-      );
+      if(this.dropDownAlertRef){
+        this.dropDownAlertRef.alertWithType(
+          type,
+          title,
+          message,
+          payload,
+          interval,
+        );
+      }
     } else {
-      this.dropDownAlertRef.closeAction();
+      if(this.dropDownAlertRef){
+        this.dropDownAlertRef.closeAction();
+      }
     }
   };
 
