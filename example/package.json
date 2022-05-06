@@ -18,7 +18,7 @@
     "react-native-apple-card-views": "^2.2.0",
     "react-native-dropdownalert": "^4.5.1",
     "react-native-gorgeous-header": "^1.0.0",
-    "react-native-internet-connection-alert": "^0.1.7",
+    "react-native-internet-connection-alert": "^0.1.8",
     "react-native-linear-gradient": "^2.5.6"
   },
   "devDependencies": {
