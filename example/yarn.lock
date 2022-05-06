@@ -5575,7 +5575,7 @@
   "resolved" "https://registry.npmjs.org/react-is/-/react-is-16.13.1.tgz"
   "version" "16.13.1"
 
-"react-native-androw@>= 0.0.33":
+"react-native-androw@^0.0.34", "react-native-androw@>= 0.0.33":
   "integrity" "sha512-YuW0GxYNzABvPPe6k+JdLUF5CAzKSW5R6IxxA/+fg5gc+4avE1tZgLmnRfNtXJCbW9r90YLYp33S9Uu2pe//fg=="
   "resolved" "https://registry.npmjs.org/react-native-androw/-/react-native-androw-0.0.34.tgz"
   "version" "0.0.34"
@@ -5605,7 +5605,7 @@
     "jscodeshift" "^0.13.1"
     "nullthrows" "^1.1.1"
 
-"react-native-dropdownalert@^4.3.0":
+"react-native-dropdownalert@^4.3.0", "react-native-dropdownalert@^4.5.1":
   "integrity" "sha512-x69zHkC5soblG1xTBlSdYiUco+vmUiik6NH+DktzUM+xRhhTAy6BrKWSzkzSZ5WqcpZ4UcRqI0b4+rHPNQtG3Q=="
   "resolved" "https://registry.npmjs.org/react-native-dropdownalert/-/react-native-dropdownalert-4.5.1.tgz"
   "version" "4.5.1"

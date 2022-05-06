@@ -10,11 +10,13 @@
     "lint": "eslint . --ext .js,.jsx,.ts,.tsx"
   },
   "dependencies": {
-    "react": "18.1.0",
-    "react-native": "0.68.1",
     "@freakycoder/react-native-bounceable": "^0.2.5",
     "@react-native-community/netinfo": "^8.3.0",
+    "react": "18.1.0",
+    "react-native": "0.68.1",
+    "react-native-androw": "^0.0.34",
     "react-native-apple-card-views": "^2.2.0",
+    "react-native-dropdownalert": "^4.5.1",
     "react-native-gorgeous-header": "^1.0.0",
     "react-native-internet-connection-alert": "^0.1.7",
     "react-native-linear-gradient": "^2.5.6"
