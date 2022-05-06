@@ -35,8 +35,8 @@ npm i react-native-internet-connection-alert
 <h5><i>IMPORTANT! You need install them</i></h5>
 
 ```js
-"react-native-dropdownalert": "=> 4.3.0",
-"@react-native-community/netinfo": "=> 5.9.6"
+"react-native-dropdownalert": "=> 4.5.1",
+"@react-native-community/netinfo": "=> 8.3.0"
 ```
 
 # Usage
