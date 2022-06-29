@@ -63,12 +63,13 @@ import InternetConnectionAlert from "react-native-internet-connection-alert";
 
 # Configuration - Props
 
-| Property |       Type        |               Default                | Description                                                                                               |
-| -------- | :---------------: | :----------------------------------: | --------------------------------------------------------------------------------------------------------- |
-| onChange |     function      |              undefined               | if you need the connection state when it is changed, you can use this function                            |
-| type     | DropdownAlertType |                error                 | Use some of the prepared dropdown types or if you want to use **your own customization** set **'custom'** |
-| title    |      string       |     Internet Connection Problem      | to change the title of built-in alert                                                                     |
-| message  |      string       | Please check your network connection | to change the message of built-in alert                                                                   |
+| Property                |       Type        |               Default                | Description                                                                                               |
+| ----------------------- | :---------------: | :----------------------------------: | --------------------------------------------------------------------------------------------------------- |
+| onChange                |     function      |              undefined               | if you need the connection state when it is changed, you can use this function                            |
+| type                    | DropdownAlertType |                error                 | Use some of the prepared dropdown types or if you want to use **your own customization** set **'custom'** |
+| title                   |      string       |     Internet Connection Problem      | to change the title of built-in alert                                                                     |
+| message                 |      string       | Please check your network connection | to change the message of built-in alert                                                                   |
+| useInternetReachability |      boolean      |                false                 | to change the check for connection state to use internet reachability                                     |
 
 ### Everything is customizable on built-in dropdownalert. Simply please look at the [React Native Dropdown Alert](https://github.com/testshallpass/react-native-dropdownalert)
 
