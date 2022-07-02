@@ -36,7 +36,11 @@ export default class InternetConnectionAlert extends React.Component<
       const { isConnected, isInternetReachable } = state;
       this.props.onChange && this.props.onChange(state);
       this.showAlert(
-        this.props.useInternetReachability ? isInternetReachable : isConnected,
+        Boolean(
+          this.props.useInternetReachability
+            ? isInternetReachable
+            : isConnected,
+        ),
       );
     });
     return () => {
