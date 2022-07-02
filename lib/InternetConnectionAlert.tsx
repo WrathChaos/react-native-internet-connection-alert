@@ -16,6 +16,7 @@ interface IProps {
   payload?: object;
   interval?: number;
   onChange: (state: NetInfoState) => void;
+  useInternetReachability?: boolean;
 }
 
 interface IState {}
@@ -32,9 +33,11 @@ export default class InternetConnectionAlert extends React.Component<
 
   listenIsInternetAvailable = () => {
     const unsubscribe = NetInfo.addEventListener((state: NetInfoState) => {
-      const { isConnected } = state;
+      const { isConnected, isInternetReachable } = state;
       this.props.onChange && this.props.onChange(state);
-      this.showAlert(isConnected);
+      this.showAlert(
+        this.props.useInternetReachability ? isInternetReachable : isConnected,
+      );
     });
     return () => {
       unsubscribe();
