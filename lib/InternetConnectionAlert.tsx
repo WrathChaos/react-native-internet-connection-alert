@@ -27,6 +27,13 @@ export default class InternetConnectionAlert extends React.Component<
 > {
   dropDownAlertRef: any;
 
+  constructor(props: IProps) {
+    super(props);
+    this.state = {
+      isConnected: true, // set initial state as true
+    };
+  }
+
   componentDidMount() {
     this.listenIsInternetAvailable();
   }
